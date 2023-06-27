@@ -48,8 +48,15 @@
 }
 
 .icon_call {
-position: relative;
-right: 60%;
+position: absolute;
+right: 150%;
+}
+
+.button {
+  position: relative;
+  background-color: #173f5f;
+  border: #173f5f;
+  padding: 1.8%;
 }
 
 
@@ -147,4 +154,18 @@ background-color: blue;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
   font-weight: 700;
+}
+
+.modal_inner1 {
+  visibility: hidden;
+}
+
+.textarea_11 {
+  visibility: hidden;
+}
+.button_sent1 {
+  visibility: hidden;
+}
+.button_close1 {
+  visibility: hidden;
 }
