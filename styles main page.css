@@ -87,3 +87,64 @@ line-height: 35px;
 color: #000000;
 
 }
+
+.modal_window {
+position: absolute;
+left: 0;
+top: 13%;
+width: 100%;
+height: 100%;
+z-index: 1000;
+background-color: blue;
+}
+
+.modal_inner {
+  position: absolute;
+  background-color: antiquewhite;
+  left: 25%;
+  height: 50%;
+  width: 50%;
+  margin-top: 10%;
+  border-radius: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  font-weight: 700;
+}
+
+.textarea_1 {
+  background-color: #969696;
+  width: 95%;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.button_sent {
+  width: 45%;
+  height: 10%;
+  font-size: 50%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.button_close {
+  width: 45%;
+  height: 10%;
+  font-size: 50%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.modal_inner3 {
+  visibility: hidden;
+  position: absolute;
+  background-color: antiquewhite;
+  left: 25%;
+  height: 50%;
+  width: 50%;
+  margin-top: 10%;
+  border-radius: 40px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+  font-weight: 700;
+}
